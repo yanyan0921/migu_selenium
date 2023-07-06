@@ -1,0 +1,12 @@
+[UP_USER]
+  # 设定压测用户，用户数为压满服务器为准，账号：lihong lihong01 huangbaoxing linlei01 lihong02
+  user=lihong lihong01 huangbaoxing linlei01
+
+
+[TEST]
+  #设定压测次数
+  test_times = 5
+
+[REDIS_TABLE]
+  test_status = ALREADY_TEST
+  tested_users = TESTED_USER
